@@ -15,4 +15,5 @@ Souhern West of China
 
 TVBS Sisy's world news
 
-![未命名.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2dd73561-1c38-4573-ba90-c54351085029/%E6%9C%AA%E5%91%BD%E5%90%8D.png)
+* File> Import Notebook
+![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Kaggle_File_import_notebook.png?raw=true)
