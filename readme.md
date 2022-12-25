@@ -11,7 +11,7 @@ Souhern West of China
 
 ## Weekly
 
-### TVBS Sisy's world news 
+### Sisy's world news 
 
 TVBS Sisy's world news
 
