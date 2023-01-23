@@ -5,7 +5,8 @@ https://rahuldkjain.github.io/gh-profile-readme-generator/
 
 <h3 align="center">pride_number_</h3>
 
-
+<div align="center">
+  
 ![](https://github.com/jz-huanng/jz-huanng/blob/main/images/READme.png?raw=true)
 
 <h3 align="left">Connect with me:</h3>
