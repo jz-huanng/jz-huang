@@ -26,6 +26,8 @@ perexample_grads=jit(vmap(grad(loss),in_axes=(None,0)))
 ```
 
 ### langchain application-chain,agent
+[Video tutorial link](https://www.youtube.com/watch?v=PJcGkI1m9jQ&list=LL&index=11&t=21s)
+[github reppos](https://github.com/databricks-academy/large-language-models/tree/published)
 ```
 # Okay now that's ready we need to make the randomized sentiment
 random_sentiment = "nice"
