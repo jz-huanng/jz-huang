@@ -22,4 +22,64 @@ def loss(params,batch):
 gradient=jit(grad(loss))#loss.backward(),caculate gradient and release computational graph)
 perexample_grads=jit(vmap(grad(loss),in_axes=(None,0)))
 
+
+```
+
+### cheatsheet
+```
+# Okay now that's ready we need to make the randomized sentiment
+random_sentiment = "nice"
+if np.random.rand() < 0.3:
+    random_sentiment = "mean"
+# We'll also need our social media post:
+social_post = "I can't believe I'm learning about LangChain in this MOOC, there is so much to learn and so far the instructors have been so helpful. I'm having a lot of fun learning! #AI #Databricks"
+
+model_id = "EleutherAI/gpt-neo-2.7B"
+tokenizer = AutoTokenizer.from_pretrained(model_id, cache_dir=DA.paths.datasets)
+model = AutoModelForCausalLM.from_pretrained(model_id, cache_dir=DA.paths.datasets)
+pipe = pipeline(
+    "text-generation", model=model, tokenizer=tokenizer, max_new_tokens=512, device_map='auto'
+)
+jekyll_llm = HuggingFacePipeline(pipeline=pipe)
+
+#with output key
+jekyll_chain = LLMChain(
+    llm=jekyll_llm,
+    prompt=jekyll_prompt_template,
+    output_key="jekyll_said",
+    verbose=False,
+)  # Now that we've chained the LLM and prompt, the output of the formatted prompt will pass directly to the LLM.
+
+# To run our chain we use the .run() command and input our variables as a dict
+jekyll_said = jekyll_chain.run(
+    {"sentiment": random_sentiment, "social_post": social_post}
+)
+
+#SequentialChain
+jekyllhyde_chain = SequentialChain(
+    chains=[jekyll_chain, hyde_chain],
+    input_variables=["sentiment", "social_post"],
+    verbose=True,
+)
+
+# We can now run the chain with our randomized sentiment, and the social post!
+jekyllhyde_chain.run({"sentiment": random_sentiment, "social_post": social_post})
+
+#ZERO_SHOT_REACT_DESCRIPTION
+# For DaScie we need to load in some tools for it to use, as well as an LLM for the brain/reasoning
+from langchain.agents import load_tools  # This will allow us to load tools we need
+from langchain.agents import initialize_agent
+from langchain.agents import (
+    AgentType,
+)  # We will be using the type: ZERO_SHOT_REACT_DESCRIPTION which is standard
+from langchain.llms import OpenAI
+
+# For OpenAI we'll use the default model for DaScie
+llm = OpenAI()
+tools = load_tools(["wikipedia", "serpapi", "python_repl", "terminal"], llm=llm)
+# We now create DaScie using the "initialize_agent" command.
+dascie = initialize_agent(
+    tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True
+)
+
 ```
