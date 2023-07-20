@@ -122,3 +122,18 @@ dascie.run(
     "Train a random forest regressor to predict salary using the most important features. Show me the what variables are most influential to this model"
 )
 ```
+
+<br>
+
+```
+from langchain.vectorstores import Chroma
+from langchain.document_loaders import TextLoader
+
+# We have some fake laptop reviews that we can load in
+file_path=""
+loader = TextLoader(
+    file_path, encoding="utf8"
+)
+document = loader.load()
+
+```
