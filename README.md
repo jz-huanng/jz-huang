@@ -178,3 +178,14 @@ laptop_name = laptop_qa.run("What is the full name of the laptop?")
 
 
 ```
+
+```
+from langchain.document_loaders import GutenbergLoader
+
+loader = GutenbergLoader(
+    "https://www.gutenberg.org/cache/epub/100/pg100.txt"
+)  # Complete works of Shakespeare in a txt file
+
+all_shakespeare_text = loader.load()
+
+```
