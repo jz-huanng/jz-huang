@@ -25,7 +25,7 @@ perexample_grads=jit(vmap(grad(loss),in_axes=(None,0)))
 
 ```
 
-### cheatsheet
+### langchain application-chain,agent
 ```
 # Okay now that's ready we need to make the randomized sentiment
 random_sentiment = "nice"
