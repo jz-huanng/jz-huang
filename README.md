@@ -92,3 +92,29 @@ dascie.run(
 )
 
 ```
+
+<br>
+
+### creat_pandas_dataframe_agent
+```
+from langchain.agents import create_pandas_dataframe_agent
+import pandas as pd
+
+datasci_data_df = pd.read_csv(f"{DA.paths.datasets}/salaries/ds_salaries.csv")
+# world_data
+dascie = create_pandas_dataframe_agent(
+    OpenAI(temperature=0), datasci_data_df, verbose=True
+)
+
+# COMMAND ----------
+
+# Let's see how well DaScie does on a simple request.
+dascie.run("Analyze this data, tell me any interesting trends. Make some pretty plots.")
+
+# COMMAND ----------
+
+# Not bad! Now for something even more complex.... can we get out LLM model do some ML!?
+dascie.run(
+    "Train a random forest regressor to predict salary using the most important features. Show me the what variables are most influential to this model"
+)
+```
