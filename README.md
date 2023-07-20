@@ -125,6 +125,7 @@ dascie.run(
 
 <br>
 Use huggingface:
+
 ```
 from langchain.vectorstores import Chroma
 from langchain.document_loaders import TextLoader
