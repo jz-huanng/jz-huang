@@ -25,6 +25,8 @@ pubilc:
     for (auto& e:employees){
       es.emplace(e->id,e);
     }
+
+    return dfs(id,es);
   }
 private:
   int dfs(int id,const unorder_map<int,Employee*>& es){
