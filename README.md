@@ -12,7 +12,10 @@
 class Solution{
 pubilc:
   int getImportance(vector<Employee*> employees,int id){
-
+    unorder_map<int,Employee*> es;
+    for (auto& e:employees){
+      es.emplace(e->id,e);
+    }
   }
 private:
   int dfs(int id,const unorder_map<int,Employee*>& es){
