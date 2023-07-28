@@ -6,6 +6,15 @@
 [multiRetrievalQAChain](https://twitter.com/cristobal_dev/status/1678414640055742468?t=NUffRBJcwspavx_SosgnrQ&s=19)<br>
 
 
+### self-deiving car
+- car and controller
+- road
+- sensor
+- collision
+- neural network
+- genetic algorithm
+
+
 ### cplusplus
 0723,0728<br>
 ```
@@ -27,6 +36,19 @@ private:
     return sum;
   }
 }
+
+```
+
+### python
+
+```
+def call(func):
+  return func()
+
+def add(x,y):
+  return x+y
+
+call(add,3,4)
 
 ```
 
