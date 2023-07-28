@@ -5,6 +5,28 @@
 <br>
 [multiRetrievalQAChain](https://twitter.com/cristobal_dev/status/1678414640055742468?t=NUffRBJcwspavx_SosgnrQ&s=19)<br>
 
+
+### cplusplus
+0723,0728<br>
+```
+class Solution{
+pubilc:
+  int getImportance(vector<Employee*> employees,int id){
+
+  }
+private:
+  int dfs(int id,const unorder_map<int,Employee*>& es){
+    const auto e=es.at(id);
+    int sum=e->importance;
+    for(auto& rid:e->subordinates){
+      sum+=dfs(rid,es);
+    }
+    return sum;
+  }
+}
+
+```
+
 ### jax
 ```
 import jax.numpy as jnp
