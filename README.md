@@ -65,6 +65,20 @@ Z[1:-1,1:-1][birth | survive] = 1
 
 
 ### cplusplus
+0731<br>
+```
+double NewtonSqrt(int a){
+	constexpr double epsilon_error=1e-2;
+	
+	double x=a;
+	
+	while(x-a/x>epsilon_error){
+		x=(x+a/x)/2.0;
+	}
+	
+	return x
+}
+```
 0723,0728<br>
 ```
 class Solution{
