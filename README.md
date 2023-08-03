@@ -131,27 +131,6 @@ call(add,3,4)
 
 ```
 
-### jax
-```
-import jax.numpy as jnp
-from jax import grad,vmap,jit
-
-def predict(params,inputs):
-  for w,b in params:
-    outputs=jnp.dot(inputs,w)+b
-    ouputs=jnp.tanh(outputs)
-  return outputs
-
-def loss(params,batch):
-  inputs,targets=batch
-  preds=predict(params,inputs)
-  return(jnp.sum(preds-targets)**2)
-
-gradient=jit(grad(loss))#loss.backward(),caculate gradient and release computational graph)
-perexample_grads=jit(vmap(grad(loss),in_axes=(None,0)))
-
-
-```
 
 ### langchain application-chain,agent
 [Video tutorial link](https://www.youtube.com/watch?v=PJcGkI1m9jQ&list=LL&index=11&t=21s)<br>
