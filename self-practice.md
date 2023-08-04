@@ -22,6 +22,60 @@ doc:晶體管
 state: continue 
 ```
 
+#### 檢索其他文章失敗
+
+```
+根據目前的檢索結果，無法找到與陳述句「中國人馮端的主要研究方向是原子排列具有隨機性結構的晶體」完全相符的證據句。因此，可以標記為「資訊不足」。
+
+
+在已提供的文章中找不到關於隨機性結構的晶體的任何信息。因此，根據目前的證據，我們可以得出以下結論：
+1. 馮端是中國物理學家，確實主要從事固體物理學的研究。
+2. 目前關於馮端在原子排列具有隨機性結構的晶體方面的研究信息是不足的。
+
+根據上述分析，我們需要進一步檢索有關馮端在原子排列具有隨機性結構的晶體方面的研究的相關文章。
+
+evidence:
+- 馮端，男，原籍浙江紹興，生於江蘇蘇州，中國物理學家，中國科學院院士，主要研究領域爲固體物理學。
+
+doc: 馮端
+state: continue 
+
+
+ Researching Feng Duan's main field of study, the evidence gathered so far is as follows:
+
+Evidence:
+1. Feng Duan is a Chinese physicist.
+2. He is a member of the Chinese Academy of Sciences.
+3. His main research field is solid-state physics.
+
+Based on the information from the searched article on Feng Duan, there is no specific mention of his research on crystals with randomly distributed atomic structures. However, I can provide general information about his main field of study, which is solid-state physics.
+
+The next step would be to search for an article related to solid-state physics or crystal structures to gather more specific information on Feng Duan's research. The current article being searched is "Feng Duan." The next article to search for could be "Solid-state physics" or "Crystal structure."
+
+Please note that I can only search for information up until September 2021, and my responses are based on pre-existing knowledge and sources available up to that date. Let's proceed with the search.
+
+Evidence:
+- Feng Duan is a Chinese physicist.
+- He is a member of the Chinese Academy of Sciences.
+- His main research field is solid-state physics.
+
+Doc: Solid-state physics
+
+State: continue 
+
+---
+
+ 我們需要檢索以下文章以找到相關的句子：威廉·華茲華斯。
+
+證據句：
+1. 威廉·華茲華斯是生活在英格蘭湖區的民意代表。
+
+根據證據句，這句話具體指出了威廉·華茲華斯生活在英格蘭湖區並擔任民意代表。現在我們要從關鍵詞"民意代表"中找到更多相關的資訊。
+
+接下來，在維基百科搜索"民意代表"以找到更多該職位的相關資訊。
+
+```
+
 #### 反駁成功
 
 ```
