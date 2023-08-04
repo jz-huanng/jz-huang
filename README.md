@@ -100,16 +100,5 @@ pubilc:
 }
 ```
 
-### python
 
-```
-def call(func):
-  return func()
-
-def add(x,y):
-  return x+y
-
-call(add,3,4)
-
-```
 
