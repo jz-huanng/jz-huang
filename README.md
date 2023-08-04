@@ -100,5 +100,8 @@ pubilc:
 }
 ```
 
+ToLearn:<br>
+[LearningWayOfEmbededSystem](https://github.com/SSHeRun/LearningWayOfEmbededSystem)<br>
+
 
 
