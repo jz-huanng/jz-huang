@@ -1,7 +1,48 @@
 
 
 
+```
+import numpy as np
+import matplotlib.pyplot as plt
+def Bode():
+    plt.subplot(2,1,1)
+    w=np.arange(0.01,100,0.1)
+    x=np.log10(w)
+    y=-10*np.log10(1+w**2)
+    plt.plot(x,y)
+    plt.ylabel('Magnitude(dB)')
+    plt.title('Bode Diagram')
 
+    
+    plt.subplot(212)
+    y1=-np.arctan(w)
+    plt.plot(x,y1)
+    plt.xlabel('Frequency (rad/s)')
+    plt.ylabel('Phase(deg)')
+    plt.show()
+    plt.subplot(212)
+
+def Nichols():
+    w=np.arange(0.01,80,0.1)
+    x=-np.arctan(w/2)*180/np.pi
+    y=-10*np.log10(1+w**2/4)
+    plt.plot(x,y)
+    plt.ylabel('Magnitude(dB)')
+    plt.xlabel('φ(w)/(°)')
+    plt.title('Nichols Diagram')
+    
+
+    
+    plt.show()
+    
+
+    
+def main():
+    #Nichols()
+    Bode()
+
+main()
+```
 
 ### cplusplus
 
