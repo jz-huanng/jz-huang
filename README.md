@@ -48,5 +48,10 @@ ToLearn:<br>
 [LearningWayOfEmbededSystem](https://github.com/SSHeRun/LearningWayOfEmbededSystem)<br>
 [wifi-cracking](https://github.com/brannondorsey/wifi-cracking)<br>
 
+<br>
+Javascript:<br>
+[pac-man及其他](https://www.zhihu.com/answer/2263313024)<br>
+[line-bot-chatgpt-api](https://github.com/Hans-Tsai/my-chatgpt/tree/main)<br>
+
 
 
