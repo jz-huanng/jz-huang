@@ -2,6 +2,7 @@
 
 #### prey-predator-equations
 ![](https://github.com/jz-huanng/jz-huanng/blob/main/images/numerical_method/odeint.png?raw=true)<br>
+![](https://github.com/jz-huanng/jz-huanng/blob/main/images/numerical_method/EulerMethod.png?raw=true)<br>
 
 ####  檢索其他文章成功
 You are ChatGPT,a large language model trained by OpenAI.<br>
