@@ -88,6 +88,7 @@ pubilc:
 ToLearn:<br>
 [LearningWayOfEmbededSystem](https://github.com/SSHeRun/LearningWayOfEmbededSystem)<br>
 [wifi-cracking](https://github.com/brannondorsey/wifi-cracking)<br>
+[Two Dubious Ways to Solve A*X = X*B, part 1](https://blogs.mathworks.com/cleve/2020/10/09/two-dubious-ways-to-solve-ax-xb-part-1/)
 
 <br>
 Javascript:<br>
