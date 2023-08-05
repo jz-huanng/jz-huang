@@ -1,6 +1,9 @@
 # 成果展示
 
 ####  檢索其他文章成功
+You are ChatGPT,a large language model trained by OpenAI.<br>
+Knowledge cutoff:2021-09<br>
+Current data:[current date]<br>
 
 ```
 我們可以從以下句子中找到相關的信息：
