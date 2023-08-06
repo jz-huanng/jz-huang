@@ -88,8 +88,9 @@ pubilc:
 ToLearn:<br>
 [LearningWayOfEmbededSystem](https://github.com/SSHeRun/LearningWayOfEmbededSystem)<br>
 [wifi-cracking](https://github.com/brannondorsey/wifi-cracking)<br>
-[Two Dubious Ways to Solve A*X = X*B, part 1](https://blogs.mathworks.com/cleve/2020/10/09/two-dubious-ways-to-solve-ax-xb-part-1/)
-
+[Two Dubious Ways to Solve A*X = X*B, part 1](https://blogs.mathworks.com/cleve/2020/10/09/two-dubious-ways-to-solve-ax-xb-part-1/)<br>
+[陽明交通大學電機系物件導向程式設計](http://ocw.nctu.edu.tw/course_detail.php?bgid=8&gid=0&nid=343&page=4)<br>
+[Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page)<br>
 <br>
 Javascript:<br>
 [pac-man及其他](https://www.zhihu.com/answer/2263313024)<br>
