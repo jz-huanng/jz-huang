@@ -1,5 +1,6 @@
 # 成果展示
 
+### implicit euler method,a numerical method to solve Lotka-Volttera equations
 #### prey-predator-equations
 ![](https://github.com/jz-huanng/jz-huanng/blob/main/images/numerical_method/odeint.png?raw=true)<br>
 ![](https://github.com/jz-huanng/jz-huanng/blob/main/images/numerical_method/EulerMethod.png?raw=true)<br>
