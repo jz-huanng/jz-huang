@@ -148,6 +148,12 @@ DeepMind 研究人員在像是廚房的測試環境利用機械手臂測試 RT-2
 
 我们还表明，结合思维链推理允许 RT-2执行多阶段的语义推理，比如决定哪个物体可以用作临时锤子(一块石头) ，或者哪种饮料最适合疲劳的人(一种能量饮料)。<br>
 
+Palm-E is designed to perform high-level decision-making task for robot.Which can include deciding where to move the arm or what object to pick up.<br>
+- mobile manipulation
+- visual Q&A,captioning
+- task and motion planning
+- tabletop manipulation
+
 字符串以一个标志开始，指示是否继续或终止当前事件，而不执行后续命令，并遵循命令改变位置和旋转的末端执行器，以及所需的扩展机器人手爪。<br>
 
 在测试过程中，将文本标记去标记化为机器人动作，从而实现闭环控制。这使我们能够利用骨干和预训练的视觉语言模型学习机器人的策略，转移他们的一些概括，语义理解和推理到机器人控制。<br>
