@@ -1,5 +1,13 @@
 
+```
+A=random.rand(3,5)
 
+from numpy.dual import svd;U,sVh=svd(A)
+
+r=min(*A.shape);Sig=zeros_like(A)
+Sig[:r,:r]=diag(s);print Sig
+
+```
 
 ```
 import numpy as np
