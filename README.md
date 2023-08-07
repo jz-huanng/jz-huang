@@ -9,6 +9,18 @@ Sig[:r,:r]=diag(s);print Sig
 
 ```
 
+def f(i,j):
+    return 10*i+j
+
+b=np.fromfunction(f,(5,4),dtype=int);b
+>>>array([[0,1,2,3],
+>>>    [10,11,12,13],
+>>>    [20,21,22,23]
+>>>    [30,31,32,33],
+>>>    [40,41,42,43]]
+
+```
+
 ```
 import numpy as np
 import matplotlib.pyplot as plt
