@@ -8,7 +8,7 @@ r=min(*A.shape);Sig=zeros_like(A)
 Sig[:r,:r]=diag(s);print Sig
 
 ```
-
+```
 def f(i,j):
     return 10*i+j
 
@@ -18,6 +18,7 @@ array([[0,1,2,3],
     [20,21,22,23],
     [30,31,32,33],
     [40,41,42,43]]
+    
 
 ```
 
