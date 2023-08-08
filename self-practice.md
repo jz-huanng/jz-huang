@@ -6,6 +6,8 @@
 ![](https://github.com/jz-huanng/jz-huanng/blob/main/images/numerical_method/EulerMethod.png?raw=true)<br>
 
 ### pid control car
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
+
 
 ####  檢索其他文章成功
 You are ChatGPT,a large language model trained by OpenAI.<br>
