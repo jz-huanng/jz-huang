@@ -6,7 +6,8 @@
 ![](https://github.com/jz-huanng/jz-huanng/blob/main/images/numerical_method/EulerMethod.png?raw=true)<br>
 
 ### pid control car
-![Watch the video]](https://github.com/jz-huanng/jz-huanng/blob/main/images/pid-control-car/video_20230721_214809~2.mp4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lY9ykufwZaE?si=uNFtZ4QrVduCY8Hs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
 
 
 ####  檢索其他文章成功
