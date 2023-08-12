@@ -1,5 +1,12 @@
 
 ```
+template <size_t N> using hash=std::array<std::byte,N>
+```
+
+<br>
+
+
+```
 clss Graph():
     daf convolutional():
         pass
