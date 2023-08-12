@@ -233,6 +233,9 @@ if __name__ == "__main__":
         pass
 ```
 
+<br>
+[phasePortrait-python](https://github.com/phaseportrait/phaseportrait/blob/master/examples/examples.ipynb)
+
 [paper-reading](https://github.com/mli/paper-reading)<br>
 ToLearn:<br>
 [LearningWayOfEmbededSystem](https://github.com/SSHeRun/LearningWayOfEmbededSystem)<br>
