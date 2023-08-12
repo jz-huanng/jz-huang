@@ -1,5 +1,29 @@
 
 ```
+clss Graph():
+    daf convolutional():
+        pass
+    def attentional():
+        pass
+    def message_passing():
+        pass
+
+class GraphNode():
+    pass
+
+class Agent(GraphNode):
+    pass
+
+class cooperation(GraphEdge):
+    pass
+
+class MAS(Graph):
+    pass
+
+```
+<br>
+
+```
 A=random.rand(3,5)
 
 from numpy.dual import svd;U,sVh=svd(A)
