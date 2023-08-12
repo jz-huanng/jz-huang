@@ -33,6 +33,9 @@ Sig[:r,:r]=diag(s);print Sig
 
 ```
 ```
+data=u"1,2,3\n4,5,6"
+np.genfromtxt(StringIO(data),delimiter=",")#delimer=(4,3,2)
+
 def f(i,j):
     return 10*i+j
 
