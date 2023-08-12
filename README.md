@@ -234,7 +234,7 @@ if __name__ == "__main__":
 ```
 
 <br>
-[phasePortrait-python](https://github.com/phaseportrait/phaseportrait/blob/master/examples/examples.ipynb)
+[phasePortrait-python](https://github.com/phaseportrait/phaseportrait/blob/master/examples/examples.ipynb)<br><br><br>
 
 [paper-reading](https://github.com/mli/paper-reading)<br>
 ToLearn:<br>
