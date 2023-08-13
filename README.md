@@ -1,7 +1,4 @@
 
-```
-template <size_t N> using hash=std::array<std::byte,N>
-```
 
 <br>
 
