@@ -45,6 +45,13 @@ class Central2(NumericalDerivative):
 num_sin_prim=Foward(np.sin)
 num_sin_prim(np.pi)
 
+def f(x)
+    return x**2*np.exp(-x)
+
+
+num_f_prim=Foward(f)
+num_f_prim(2)
+
 ```
 
 <br>
