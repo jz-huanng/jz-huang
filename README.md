@@ -28,6 +28,28 @@ class MAS(Graph):
 <br>
 
 ```
+class NumericalDerivative:
+    def __init__(self,f,h=1E-5):
+        self.h,self.h=f,h
+
+class Foward(NumericalDerivative):
+    def __call__(self,x):
+        f,h=self.f,self.h
+        return (f(x+h)-f(h))/h
+
+class Central2(NumericalDerivative):
+    def __call__(self,x):
+        f,h=self.f,self.h
+        return (f(x+h)-f(x-h))/(2*h)
+
+num_sin_prim=Foward(np.sin)
+num_sin_prim(np.pi)
+
+```
+
+<br>
+
+```
 A=random.rand(3,5)
 
 from numpy.dual import svd;U,sVh=svd(A)
